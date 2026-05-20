@@ -80,6 +80,5 @@ The site has everything that isn't a code distribution:
 
 ## Contact
 
-- **General**: [hello@readyapis.com](mailto:hello@readyapis.com)
-- **Security disclosures**: [security@readyapis.com](mailto:security@readyapis.com)
+- **Email**: [support@readyapis.com](mailto:support@readyapis.com)
 - **Bugs in these libraries**: file an issue on the relevant repo above
