@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Curated, normalized data for products and AI agents.</strong><br>
-  200+ APIs across address, tax, weather, FX, fraud, compliance — one key, one bill, <a href="https://readyapis.com/mcp/connect">MCP-ready</a>.
+  200+ APIs across address, tax, weather, FX, fraud, compliance - one key, one bill, <a href="https://readyapis.com/mcp/connect">MCP-ready</a>.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 Both open-source under MIT, with OIDC/sigstore provenance on PyPI and npm.
 
-### Python SDK — [`readyapis-python`](https://github.com/ReadyAPIs-com/readyapis-python)
+### Python SDK - [`readyapis-python`](https://github.com/ReadyAPIs-com/readyapis-python)
 
 [![PyPI](https://img.shields.io/pypi/v/readyapis.svg)](https://pypi.org/project/readyapis/)
 [![Python](https://img.shields.io/pypi/pyversions/readyapis.svg)](https://pypi.org/project/readyapis/)
@@ -35,22 +35,22 @@ zip_data = client.geo.zip("30301")
 print(zip_data.city, zip_data.state)     # "Atlanta" "GA"
 ```
 
-### Node CLI — [`readyapis-node`](https://github.com/ReadyAPIs-com/readyapis-node)
+### Node CLI - [`readyapis-node`](https://github.com/ReadyAPIs-com/readyapis-node)
 
 [![npm](https://img.shields.io/npm/v/readyapis.svg)](https://www.npmjs.com/package/readyapis)
 [![Node](https://img.shields.io/node/v/readyapis.svg)](https://www.npmjs.com/package/readyapis)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ReadyAPIs-com/readyapis-node/blob/main/LICENSE)
 
-One command to scaffold a runnable demo — pick from `geo`, `tax`, `fx`, `email`, `calendar`, or `intel`, plus a target language (Node, Python, or curl). Zero runtime dependencies; resolves in under a second.
+One command to scaffold a runnable demo - pick from `geo`, `tax`, `fx`, `email`, `calendar`, or `intel`, plus a target language (Node, Python, or curl). Zero runtime dependencies; resolves in under a second.
 
 ```bash
-npx readyapis init        # interactive — drops one file in your cwd
+npx readyapis init        # interactive - drops one file in your cwd
 npx readyapis whoami      # verify your key
 ```
 
 ## Curated open datasets
 
-When you don't need the live API — just clean source data in a CSV.
+When you don't need the live API - just clean source data in a CSV.
 
 ### [`curated-us-zips`](https://github.com/ReadyAPIs-com/curated-us-zips)
 
@@ -71,12 +71,12 @@ For the live API surface (per-request lookup, batch validation, cross-checks), s
 
 The site has everything that isn't a code distribution:
 
-- [**Catalog**](https://readyapis.com/apis) — every endpoint with live examples
-- [**Docs**](https://readyapis.com/docs/getting-started) — quickstart, auth, error envelope, rate limits
-- [**Recipes**](https://readyapis.com/recipes) — step-by-step how-tos for real product problems
-- [**Free tools**](https://readyapis.com/free/address-validator) — try without signup
-- [**MCP setup**](https://readyapis.com/mcp/connect) — connect Claude or Cursor in one click
-- [**Pricing**](https://readyapis.com/pricing) — free tier, no card
+- [**Catalog**](https://readyapis.com/apis) - every endpoint with live examples
+- [**Docs**](https://readyapis.com/docs/getting-started) - quickstart, auth, error envelope, rate limits
+- [**Recipes**](https://readyapis.com/recipes) - step-by-step how-tos for real product problems
+- [**Free tools**](https://readyapis.com/free/address-validator) - try without signup
+- [**MCP setup**](https://readyapis.com/mcp/connect) - connect Claude or Cursor in one click
+- [**Pricing**](https://readyapis.com/pricing) - free tier, no card
 
 ## Contact
 
